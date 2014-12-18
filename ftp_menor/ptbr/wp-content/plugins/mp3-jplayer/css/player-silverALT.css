@@ -1,0 +1,369 @@
+/*	
+  MP3-jPlayer 1.7 - Silver Player
+	
+  -	This style sheet allows for the user 'colour settings' set from admin. The commented-out properties are set by the plugin, 
+  	they can be overidden by setting them directly in the sheet.
+  -	The class .mp3j_widgetmods is added when mods="y" is used in a shortcode/widget. It can 
+  	be added to the following elements: 
+	
+	on [mp3-jplayer] 		
+			div.player-track-title, div.player-artist, div.dloadmp3-MI, div.playlist-toggle-MI, div.mp3j-popout-MI, div.statusMI, div.jp-playlist li
+	on [mp3-album] :
+	on [mp3-basic] :
+	on [mp3j] or [mp3t] : */
+
+/* === [mp3-jplayer] ============================== */
+
+/* POSITION AND WIDTH */
+	div.wrap-MI { border:0; margin:0; background:transparent;
+		/* position || float */
+		/* width */
+		min-width:116px;
+	}
+	div.jp-innerwrap, 
+	div.jp-interface,
+	div.innertab, 
+	div.bars_holder, 
+	div.playlist-wrap-MI {
+		width:100%;
+	}
+	
+	div.jp-innerwrap { position:relative !important; background:transparent; border:0; margin:0; }
+	div.jp-interface { position:relative !important; height:103px; min-height:85px; border:0; margin:0; cursor:default; }
+	
+/* BACKGROUNDS */		
+	div.innerx {	position: absolute;
+					width: auto;
+					height: 20px;
+					left: 9px;
+					right: 88px;
+					top: 0px;
+					background: url('images/case2t-x.png') repeat-x left top;
+					z-index:5;
+					}
+	
+	div.innerleft {	position: absolute;
+					width: 10px;
+					height: 20px; /* IE6 */
+					left: -1px;
+					top: 0px;
+					background: url('images/case2t-l.png') no-repeat left top;
+					z-index:5; }
+	
+	div.innerright {	position: absolute;
+					width: 90px;
+					height: 20px; /* IE6 */
+					right: -2px;
+					top: 0px;
+					background: url('images/case2t-r.png') no-repeat right top;
+					z-index:5; }
+					
+/* SCREEN BACKGROUND -------------- */
+	div.innertab {		
+		position: absolute;
+		width: 100%;
+		bottom: 0px;
+		left: 0px;
+		top: 0px;
+		/* background */
+		/* opacity */
+	}
+
+
+/* SCREEN TEXT */			
+	div.player-track-title, 
+	div.player-artist, 
+	div.jp-play-time, 
+	div.jp-total-time, 
+	div.statusMI { 
+		/* color */ 
+	}
+	
+	div.player-track-title { position:absolute; font:normal normal 500 13px 'verdana', 'Lucida Grande', 'arial', sans-serif; top:8px; left:9px; width:auto; max-width:97%; line-height:15px; z-index:50; }
+	div.player-track-title.mp3j_widgetmods { font-size: 11px; top: 9px; }					
+	div.player-artist {	position:absolute; font:normal normal 500 10px 'verdana', 'Lucida Grande', 'arial', sans-serif; top:24px; left:28px; width:auto; max-width:95%; line-height:12px; height:auto; z-index:50; }
+	div.player-artist.mp3j_widgetmods { font-size: 9px; }
+
+
+
+/* STATUS */
+	div.jp-play-time,
+	div.jp-total-time,
+	div.statusMI {		
+		position:absolute; font:normal normal 500 8px 'verdana', 'Lucida Grande', 'arial', sans-serif; bottom:52px; text-align:left; z-index:50; 
+	}
+	div.jp-play-time {	right:79px; font-size:8px; }
+	div.jp-total-time {	right:7px; opacity:0.8; font-size:8px; } 
+	div.statusMI { right:34px; width:40px; font-size:8px; line-height:10px !important; height:10px !important; }
+			
+	span.mp3-finding, 
+	span.mp3-loading, 
+	span.mp3-tint { 
+		margin:0px 0px 0px -3px; padding:0px 0px 0px 3px !important; font-size:8px !important; line-height:10px !important; height:10px !important; overflow:hidden !important; -moz-border-radius:2px !important; -webkit-border-radius:2px !important; border-radius:2px !important; 
+	}
+	span.mp3-finding {background:transparent url('../css/images/finding-bar1f.gif') repeat-y 0px 3px;
+		/* opacity */ 
+	}
+	span.mp3-loading { background:transparent url('../css/images/finding-bar1f.gif') repeat-y 0px 3px;
+		/* opacity */ 
+	}
+	span.mp3-tint { margin:0px 2px 0px -3px; opacity:.5; filter:alpha(opacity=50); 
+		/* background */
+	}
+
+		
+/* DIV TRANSPORT since 1.6 */
+	/* Transport wrap */
+	div.transport-MI { position:absolute; left:0px; height:39px; right:0px; bottom:0px; border:0; z-index:15; background:url('images/case2t-x.png') repeat-x left -65px; padding-right:2px; }
+	
+	/* playpause button */
+	div.buttons_mp3j { text-indent:-9999px !important; float:right; width:30px; height: 34px; margin:0px; background: transparent url("images/transport-hard.png") -110px 1px no-repeat !important; }
+	div.buttons_mp3j:hover { background:transparent url("images/transport-hard.png") -110px -31px no-repeat !important; }
+	div.buttons_mp3jpause { text-indent:-9999px !important; float:right; width:30px; height: 34px; margin:0px; background: transparent url("images/transport-hard.png") -2px 1px no-repeat !important; }
+	div.buttons_mp3jpause:hover { background:transparent url("images/transport-hard.png") -2px -31px no-repeat !important; }
+
+	/* prev & next buttons */
+	div.Prev_mp3j, div.Next_mp3j { text-indent:-9999px !important; float:right; height: 28px; } 
+	div.Prev_mp3j { width:22px; margin:0px 2px 0px 0px; background: transparent url("images/transport-hard.png") -32px -1px no-repeat !important; }
+	div.Prev_mp3j:hover { background: transparent url("images/transport-hard.png") -32px -33px no-repeat !important; }
+	div.Next_mp3j { width:19px; margin:0px 1px 0px 0px; background: transparent url("images/transport-hard.png") -57px -1px no-repeat !important; }
+	div.Next_mp3j:hover { background: transparent url("images/transport-hard.png") -57px -33px no-repeat !important; }
+	
+	/* stop button */
+	div.stop_mp3j { text-indent:-9999px !important; float:right; width:26px; height: 34px; margin:0px 1px 0px 2px; background: transparent url("images/transport-hard.png") -81px 1px no-repeat !important; }
+	div.stop_mp3j:hover { background:transparent url("images/transport-hard.png") -81px -31px no-repeat !important; }
+
+/* PLAYLIST TOGGLE */
+	div.playlist-toggle-MI { position:absolute; font:normal normal 500 9px 'trebuchet ms', 'Lucida Grande', 'arial', sans-serif; bottom:5px; left:1px; color:#707070; padding:2px 6px 2px 5px; line-height:9px; min-width:24px; background:#b9b9b9; -moz-border-radius:1px; -webkit-border-radius:1px; cursor:default; z-index:30; }
+	div.playlist-toggle-MI:hover { background:#c6c6c6; color:#808080; border-right:1px solid #a9a9a9; }
+
+/* DOWNLOAD BUTTON */	
+	div.dloadmp3-MI { position:absolute; font:normal normal 500 9px 'trebuchet ms', 'Lucida Grande', 'arial', sans-serif !important; bottom:49px; margin:0px !important; font-size:9px !important; text-align:center; left:0px; width:41%; min-width:75px; max-width:125px; padding:0px 0px 0px 0px !important; border:0px; background:transparent url('images/t10b.png') repeat left top !important; color:#fff; line-height:11px !important; -moz-border-radius-topright:3px; -webkit-border-top-right-radius:3px; overflow:hidden; z-index:150; cursor:default; }							
+	div.dloadmp3-MI.betweenlinks  { background:transparent url('images/t10b.png') repeat left top !important; }
+	div.dloadmp3-MI.whilelinks { background:#696969 !important; }
+	div.dloadmp3-MI.whilelinks:hover { background:#777 !important; }
+					
+		div.dloadmp3-MI a {	color:#ececec; display:block; width:auto; padding:1px 5px 2px 2px !important; margin:0px !important; background:transparent; text-decoration:none !important; font:normal normal 500 9px 'trebuchet ms', 'Lucida Grande', 'arial', sans-serif !important; font-size:9px !important; line-height:11px !important; /* after font declaration */ height:100%; border-bottom:none; visibility:hidden; }				
+		div.dloadmp3-MI a:hover { outline: none; border-bottom: none; color: #ececec; }
+		div.dloadmp3-MI.betweenlinks a { visibility: hidden; }
+		div.dloadmp3-MI.whilelinks a { color: #f3f3f3; visibility: inherit; }
+		div.dloadmp3-MI.whilelinks a:hover { color: #fff; }
+
+/* POPOUT BUTTON */	
+	div.mp3j-popout-MI { position:absolute; font:normal normal 500 9px 'trebuchet ms', 'Lucida Grande', 'arial', sans-serif; bottom:18px; left:0px; height:16px; color:#595959; padding:3px 5px 0px 28px; min-width:2px; line-height:11px; border:1px solid #acacac; background:#bfbfbf url('images/buttons-popout.png') no-repeat -5px -5px; -moz-border-radius:2px; -webkit-border-radius:2px; cursor:default; z-index:30; }
+	div.mp3j-popout-MI:hover { color:#606060; background:#c6c6c6 url('images/buttons-popout.png') no-repeat -5px -35px; }
+	
+	
+	/* sliders/bars */
+	.ui-state-disabled { cursor: default !important; }
+	.ui-slider { position: relative; text-align: left; }
+	.ui-slider .ui-slider-handle { position: absolute; z-index: 100; cursor: default; }
+	.ui-slider .ui-slider-range { position: absolute; z-index: 1; font-size: .7em; display: block; border: 0; }
+	.ui-slider-horizontal .ui-slider-range { top: 0; height: 100%; } 
+	.ui-slider-horizontal .ui-slider-range-min { left: 0; }
+	.ui-slider-horizontal .ui-slider-range-max { right: 0; }
+	.ui-state-default,
+	.ui-widget-content .ui-state-default { 
+		outline: none;
+		border: 0px;
+	}
+
+		
+		
+		
+		div.MIsliderVolume {	position:absolute;
+						top:7px;
+						right: 10px;
+						width: 59px;
+						height:2px;
+						background: #555;
+						border: 1px solid #606060;
+						font-size: 1px;
+						cursor: default;
+						z-index:10; }
+		
+		div.MIsliderVolume .ui-widget-header { /* background */ }
+		
+				div.MIsliderVolume .ui-slider-handle {
+								height: 11px !important;
+								width: 10px !important;
+								padding: 0px !important;
+								margin-left: -4px;
+								top: -5px;
+								border: 0px;
+								-moz-border-radius: 2px;
+								-webkit-border-radius: 2px;
+								background: transparent url('images/vol-handle.png') no-repeat -1px 0px;
+								overflow:hidden !important; }
+								
+				div.MIsliderVolume .ui-slider-handle:hover {
+								border-color: #888;
+								background: #606060;
+								background: transparent url('images/vol-handle.png') no-repeat -21px 0px; }
+								
+				div.MIsliderVolume .ui-state-active,
+				div.MIsliderVolume .ui-widget-content .ui-state-active { 
+								border: 0px solid #777; 
+								background: transparent url('images/vol-handle.png') no-repeat -21px 0px; 
+								outline: none; }
+								
+		div.bars_holder {	position:absolute;
+						bottom: 39px;
+						left: 0px;
+						right: 0px;
+						width: auto;
+						height: 9px;
+						background: #989898;
+						font-size: 1px; 
+						cursor: default;
+						border-bottom: 1px solid #d8d8d8;
+						z-index: 700; }
+		
+		div.bars_holder.ui-widget-header { border: 1px solid #555;
+							border-left: 0px;
+							border-right: 0px;
+							margin-right: 20px;
+							
+							
+							 }
+				
+				
+				div.posbarMI_mp3j {	position: absolute;
+									background: #989898;
+									top: 0px;
+									font-size: 5px; 
+									border: 1px solid #989898;
+									border-bottom: 0px solid #888;
+									border-left: 0px solid #888;
+									left: 0px;
+									right: 6px;
+									width:auto; }
+				
+				div.posbarMI_mp3j .ui-slider-handle {
+								top: -2px;
+								margin-left: -2px;
+								border: 0px;
+								height: 13px;
+								width: 12px;
+								background: transparent url('images/pos-handleALT.png') no-repeat left top;
+								z-index: 800; }
+								
+				div.posbarMI_mp3j .ui-slider-handle:hover {
+								background: transparent url('images/pos-handleALT.png') no-repeat right top; }
+				
+				div.posbarMI_mp3j .ui-state-active, div.posbarMI_mp3j .ui-widget-content .ui-state-active { 
+								border: 0px solid #777; 
+								background: 989898 url('images/pos-handleALT.png') no-repeat right top; 
+								outline: none; }
+				
+				/* LOAD BAR */
+				div.loadMI_mp3j { position:absolute; top:7px; left:0px; bottom:0px; 
+					/* background */
+					/* opacity */
+				}
+				
+							
+				div.bars_holder .ui-progressbar .ui-progressbar-value {margin: 0px; height:100%;
+					/* background */
+					/* opacity */
+				}
+				
+				div.bars_holder .ui-slider-horizontal { height: 6px; z-index: 100; }
+		
+											
+/* PLAYLIST */					
+	div.listwrap_mp3j { position:relative; padding: 0px 0px 0px 0px; margin-top:-2px; /* background */ }
+	div.playlist-wrap-MI { position:relative; }
+	div.playlist-wrap-MI ul { position:static; }
+	
+	
+	div.playlist-colour { position:absolute; width:100%; height:100%; left:0px; top:0px;
+		/* background */
+		/* opacity */
+	}
+	
+	ul.UL_mp3j { margin:0px !important; padding:0px 0px 0px 0px !important; list-style-type:none !important; list-style:none !important; list-style-image:none !important; }
+	ul.UL-MI_mp3j { margin:0px !important; padding:0px 0px 0px 0px !important; list-style-type:none !important; list-style:none !important; list-style-image:none !important; font-weight: 500 !important;
+		/* background */ 
+	}
+	ul.UL_mp3j li { margin:0px !important; padding:0px 0px 0px 15px !important; content:none !important; background:none !important; }
+	ul.UL_mp3j li:before { content:none !important; }
+	ul.UL-MI_mp3j li { margin:0px !important; padding:0px 0px 1px 0px !important; content:none !important; font-weight:500 !important; line-height:28px !important; letter-spacing:0px !important; font-size:11px !important; word-spacing:0px !important; margin:0px 1px 0px 1px !important; }
+	ul.UL-MI_mp3j li:before { content:none !important; }
+	ul.UL-MI_mp3j.mp3j_widgetmods li { font-size:10px !important; line-height:26px !important; }
+	
+	ul.UL-MI_mp3j li a { font-size:11px !important; border:0 !important; content:none !important; line-height:28px !important; font-weight:500 !important; text-decoration:none !important; display:block !important; width:auto !important; font-family:'verdana', 'Lucida Grande', 'arial', sans-serif !important; outline:none !important; padding:0px 0px 0px 14px !important; }
+	ul.UL-MI_mp3j.mp3j_widgetmods li a { font-size:10px !important; line-height:26px !important; }
+
+
+/* === [mp3-album] ================================ */
+/* === [mp3j] & [mp3t] ============================ */
+span.wrap_inline_mp3j { position:relative; width:auto; cursor:pointer; padding:0; white-space:nowrap; text-align:left; }
+span.wrap_inline_mp3j:hover .buttons_mp3j { background:transparent url('images/transport-shard.png') no-repeat -80px -35px; }
+
+span.indi_mp3j { position:relative; padding-left:2px; font-size: 0.7em !important; }
+
+/* bars wrap */
+span.bars_mp3j { position:absolute; width:100%; height:100%; }
+	
+	/* bars for [mp3t] */
+	span.load_mp3j { position:absolute; /* background */ top:20px; left:0px; height:2px; }
+	span.posbar_mp3j { position:absolute; width:100%; height:100%; border:0px solid #f77; }
+	span.posbar_mp3j .ui-widget-header { z-index:-500; }	
+	span.posbar_mp3j .ui-slider-handle { top: 2px; margin-left: -11px !important; border: 0px solid #888; height: 21px; width: 19px !important; z-index: 500; 
+		background: transparent url('images/inlineHandle1.png') no-repeat 8px 0px;
+		opacity:0.75;
+		filter:alpha(opacity=75);
+		cursor: default; padding:0px !important; }
+	span.posbar_mp3j .ui-slider-handle:hover { 
+		background: transparent url('images/inlineHandle1.png') no-repeat 8px -30px;
+	}
+	
+	/* bars for [mp3j], [mp3-album], & [mp3PL] */
+	span.loadB_mp3j { position:absolute; /*background */ top:20px; left:0px; height:2px; }
+	span.posbarB_mp3j { position:absolute; width:100%; height:100%; border:0; z-index:450; cursor:pointer; }
+	span.posbarB_mp3j .ui-widget-header { background:transparent; z-index:450; height:100%; }	
+	span.posbarB_mp3j .ui-slider-handle { top: 0px; margin-left: -6px !important; border: 0px solid #888; height: 23px; width: 12px !important; z-index: 500; background: transparent url('images/inlineHandle2.png') no-repeat -3px -3px; cursor: default; padding:0px !important; }
+	span.posbarB_mp3j .ui-slider-handle:hover { background: transparent url('images/inlineHandle2.png') no-repeat -3px -33px; }
+
+/* SPAN TRANSPORT */
+	span.group_wrap { position:relative; margin:0px 0px 0px 0px; width:auto; }
+	
+	/* playpause button */
+	span.textbutton_mp3j, span.T_mp3j { position:relative; width:auto; margin:0px; padding:0px; }
+	span.buttons_mp3j { position:relative; margin:0px; padding:2px 0px 3px 20px; background: transparent url('images/transport-shard.png') no-repeat -80px -3px; }
+	span.buttons_mp3j:hover { background:transparent url('images/transport-shard.png') no-repeat -80px -35px; }
+	span.buttons_mp3jpause { position:relative; margin:0px; padding:2px 0px 3px 20px; background: transparent url('images/transport-shard.png') no-repeat -2px -3px; }
+	span.buttons_mp3jpause:hover { background:transparent url('images/transport-shard.png') no-repeat -2px -35px; }
+	
+	/* prev & next buttons*/
+	span.Prev_mp3j, span.Next_mp3j { position:relative; margin:0px 0px 0px 3px; padding:2px 0px 3px 12px; } 
+	span.Prev_mp3j { background: transparent url('images/transport-shard.png') no-repeat -25px -4px; }
+	span.Prev_mp3j:hover { background: transparent url('images/transport-shard.png') no-repeat -25px -36px; }
+	span.Next_mp3j { background: transparent url('images/transport-shard.png') no-repeat -44px -4px; }
+	span.Next_mp3j:hover { background: transparent url('images/transport-shard.png') no-repeat -44px -36px; }
+
+/* -- player & list containers -- */
+div.basiclist-player-wrap { padding: 0px 0px 10px 0px; }
+
+div.album-player-wrap { padding: 20px 0px 15px 0px; }
+div.listwrap-album-mp3j { padding: 0px 0px 5px 0px; /* background */ }
+
+/* image for [mp3-album] */
+div.img_mp3j { float:right; margin: 10px 0px 25px 30px; padding: 0px !important; }
+	div.img_mp3j a { position:relative; margin:0 !important; padding:0 !important; }
+	div.img_mp3j img { position:relative; margin:0 !important; padding:2px !important; border: 2px solid #ccc; }
+
+div.Holder_mp3j, div.Holderg_mp3j { position:relative; }
+div.Holderg_mp3j { border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; /* width */ }
+
+div.vol_mp3j { position:absolute; top:-12px; right:7px; width:100px; height:4px; background: transparent url('images/t10g.png') repeat left top; }
+	div.vol_mp3j .ui-widget-header { /* background */ z-index:50; height:100%; }	
+	div.vol_mp3j .ui-slider-handle { top:-4px; background: transparent url('images/vol-handle.png') no-repeat -21px 0px; }
+	div.vol_mp3j .ui-slider-handle:hover { background: transparent url('images/vol-handle.png') no-repeat -1px 0px; }
+	div.vol_mp3j .ui-state-active, div.vol_mp3j .ui-widget-content .ui-state-active { background: transparent url('images/vol-handle.png') no-repeat -1px 0px; }
+
+.mp3j-link-play { cursor:pointer; }
+
+#debug_mp3j { position:relative; border:1px solid #ccc; padding:10px; width:200px; }
+/* end_____________________________________________________________________________________ */

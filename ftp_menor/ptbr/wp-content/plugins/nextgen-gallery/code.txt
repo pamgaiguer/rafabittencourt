@@ -1,0 +1,6 @@
+http://wordpress.org/extend/plugins/nextgen-gallery/faq/
+
+
+[nggallery id=3]
+
+[slideshow id=1 w=900 h=250]

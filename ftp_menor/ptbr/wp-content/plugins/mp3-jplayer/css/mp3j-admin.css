@@ -1,0 +1,13 @@
+#pickerwrap { position:relative; padding: 0px; background: #444; margin:30px 0px 0px 10px; width:380px; height:208px; border: 0px; }
+.addcol { position:relative; border:1px solid #d8d8d8; background:#e6e6e6; color:#444; padding:3px 3px 4px 3px; cursor:pointer; font-size: 12px; font-weight: 700; width: 20px; -moz-border-radius: 4px; -webkit-border-radius: 4px; margin-left:0px; margin-right:11px; }
+.addcol:hover { border:1px solid #e0e0e0; color:#666; background:#eee; }
+.bl { width: 30px; padding: 5px 0px 6px 30px; margin:0px 0px 0px 0px; height: 30px; border:1px solid #aaa; cursor:pointer; }
+#plugin { position: absolute; BACKGROUND: #444 url('images/Hue.gif') no-repeat 196px 22px; COLOR: #AAA; CURSOR: default; FONT-FAMILY: arial; FONT-SIZE: 12px; line-height: 14px; padding: 22px 9px 0px 9px; _PADDING-RIGHT: 0; Z-INDEX: 1; height:180px; WIDTH: 214px; _width: 210px; top:0px; right:7px; border-left: 0px solid #444; }
+#plugin br { CLEAR: both; MARGIN: 0; PADDING: 0; }
+#plugHEX { position: absolute; top: 85px; left: 33px; COLOR: #FFD000; color:#f0f0f0; width: 70px; height:25px; }
+#plugCUR { position: absolute; width: 81px; height: 57px; font-size: 1px; background: transparent; border: 1px solid #555; top: 21px; left: 33px; }
+#SV { background: #FF0000 url('images/SatVal.png'); _BACKGROUND: #FF0000; POSITION: relative; CURSOR: crosshair; FLOAT: left; HEIGHT: 166px; WIDTH: 167px; _WIDTH: 166px; MARGIN-RIGHT: 17px; margin-top:0px; /* filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/SatVal.png', sizingMethod='scale'); */ border: 1px solid #555; border-top:0px; -moz-user-select: none; -khtml-user-select: none; user-select: none; }
+#SVslide { BACKGROUND: url('images/slide.gif'); HEIGHT: 9px; WIDTH: 9px; POSITION: absolute; _font-size: 4px; line-height: 4px; }
+#H { BORDER: 0; CURSOR: crosshair; FLOAT: left; HEIGHT: 154px; POSITION: relative; WIDTH: 25px; PADDING: 0; TOP: 4px; -moz-user-select: none; -khtml-user-select: none; user-select: none; }
+#Hslide { BACKGROUND: url('images/arrow.gif'); HEIGHT: 8px; WIDTH: 20px; POSITION: absolute; _font-size: 1px; line-height: 1px; }
+#Hmodel { POSITION: relative; TOP: -5px; BORDER: 1px solid #555; WIDTH: 25px; height:166px;  }

@@ -1,0 +1,137 @@
+TheThe Tabs and Accordions shortcode options description
+//----------------------------------------------------------------------------
+
+Toggle:
+
+[toggles title="Toggle Group title" active=1 speed=500 style="blank"]
+	[toggle title="First toggle title"]
+		First toggle text
+	[/toggle]
+	[toggle title="Second toggle title"]
+		Second toggle text
+	[/toggle]	
+[/toggles]
+
+Toggle options:
+  [title] String (in [toggles] shortcode)
+Set Toggle Group title in <h2> tag.
+
+  [speed] Number
+Duration of animation in ms.
+
+  [active] Number
+Index of the toggles to be opened on initialization. 
+Default none (all toggles are closed)
+
+  [style] String
+(blank) set blank style (recommended for FAQ)
+ 
+//----------------------------------------------------------------------------
+ 
+Tabs:
+
+[tabs title="Tabs Group title" active=2 event="click" disabled=false]
+    [tab title="First tab title"]
+        First tab text
+    [/tab]
+    [tab title="Second tab title"]
+        Text from second tab
+    [/tab]
+[/tabs]
+
+Tabs options:
+  [title] String (in [tabs] shortcode)
+Set Tabs Group title in <h2> tag.
+  
+  [disabled] Boolean
+(true) or enables (false) the tabs. Can be set when initialising (first creating) the tabs
+
+  [collapsible] Boolean
+Set to true to allow an already selected tab to become unselected again upon reselection
+
+  [active] Number
+Index of the tab to be selected on initialization. 
+
+  [event] String
+The type of event to be used for selecting a tab. ("mouseover" or "click")
+
+//----------------------------------------------------------------------------
+
+Accordion:
+[accordions title="Accordion Group title" active=2 event="click" disabled=false autoheight=true]
+    [accordion title="Section title 1"]
+	    First section content
+    [/accordion]
+    [accordion title="Section title 2"]
+	    Second section text
+    [/accordion]
+[/accordions]
+				
+Accordion options:
+  [title] String (in [accordions] shortcode)
+Set Accord Group title in <h2> tag.
+
+  [disabled] Boolean
+Disables (true) or enables (false) the accordion. Can be set when initialising (first creating) the accordion
+
+  [active] Number
+Index of the active element. Set to false to display none at start. 
+
+  [animated] Boolean, String
+Choose your favorite animation, or disable them (set to false). In addition to the default, 'bounceslide' and all defined easing methods are supported ('bounceslide' requires UI Effects Core)
+
+  [autoheight] Boolean
+If set, the highest content part is used as height reference for all other parts. Provides more consistent animations.
+
+  [clearstyle] Boolean
+If set, clears height and overflow styles after finishing animations. This enables accordions to work with dynamic content. Won't work together with autoHeight
+
+  [collapsible] Boolean
+Whether all the sections can be closed at once. Allows collapsing the active section by the triggering event (click is the default)
+
+  [event] String
+The event on which to trigger the accordion. ("mouseover" or "click")
+
+  [fillspace] Boolean
+If set, the accordion completely fills the height of the parent element. Overrides autoheight.
+
+
+//----------------------------------------------------------------------------
+Horizontal Accordion:
+
+[haccordions title="Accordion Group title" width=500 height=320 hwidth=28 speed=200 active=1]
+    [haccordion title="Fist title"]First tab text[/haccordion]
+    [haccordion title="Second title"]Second accordion tabs content[/haccordion]
+[/haccordions]
+
+Horizontal Accordion options:
+
+  [title] String (in [haccordions] shortcode)
+Set HAccord Group title in <h2> tag.
+
+  [width] Number
+Width of haccordion in px
+
+  [height] Number
+Height of haccordion in px
+
+  [hwidth] Number
+Width of each header(title) in px
+
+  [speed] Number
+Duration of animation in ms.
+
+  [active] Number
+Index of the header(title) to be selected on initialization.
+
+  [autoplay] Boolean
+Automatically scroll through the slides  
+
+  [cyclespeed] Number
+Time between slide activation (time/ms)
+
+  [pauseonhover] Boolean 
+Pause slides on hover 
+
+  [enumerate] Boolean 
+Show slide number in tab  

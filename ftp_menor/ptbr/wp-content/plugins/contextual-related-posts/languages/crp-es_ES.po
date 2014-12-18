@@ -1,0 +1,420 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Contextual Related Posts\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-17 09:19-0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ajay D'Souza <me@ajaydsouza.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_c;__ngettext\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin.inc.php:70
+msgid "Options saved successfully."
+msgstr "Opciones guardadas correctament."
+
+#: admin.inc.php:86
+msgid "Options set to Default."
+msgstr "Restablecer opciones originales"
+
+#: admin.inc.php:101
+msgid "Index recreated"
+msgstr "Recrear el Index"
+
+#: admin.inc.php:114
+msgid "Support the development"
+msgstr "Apoya el desarrollo"
+
+#: admin.inc.php:122
+msgid "Enter amount in USD: "
+msgstr "Ingresa monto en USD:"
+
+#: admin.inc.php:126
+msgid "Send your donation to the author of"
+msgstr "Enviar tu donación al autor de"
+
+#: admin.inc.php:135
+#, fuzzy
+msgid "Quick Links"
+msgstr "Links rápidos"
+
+#: admin.inc.php:137
+#, fuzzy
+msgid "Contextual Related Posts plugin page"
+msgstr "Posts relacionados contextualmente"
+
+#: admin.inc.php:138
+msgid "Other plugins"
+msgstr "Otros plugins"
+
+#: admin.inc.php:139
+msgid "Ajay's blog"
+msgstr ""
+
+#: admin.inc.php:140
+#: contextual-related-posts.php:451
+msgid "Support"
+msgstr "Soporte"
+
+#: admin.inc.php:141
+msgid "Follow @ajaydsouza on Twitter"
+msgstr "Seguir @ajaydsouza en Twitter"
+
+#: admin.inc.php:145
+msgid "Recent developments"
+msgstr "Desarrollos recientes"
+
+#: admin.inc.php:157
+msgid "General options"
+msgstr ""
+
+#: admin.inc.php:160
+msgid "Number of related posts to display: "
+msgstr "Número de posts relacionados a mostrar:"
+
+#: admin.inc.php:163
+msgid "Post types to include in results (including custom post types)"
+msgstr ""
+
+#: admin.inc.php:174
+msgid "Use CTRL on Windows and COMMAND on Mac to select multiple items"
+msgstr ""
+
+#: admin.inc.php:177
+msgid "Find related posts based on content as well as title"
+msgstr ""
+
+#: admin.inc.php:178
+#, fuzzy
+msgid "If unchecked, only posts titles are used. (I recommend using a caching plugin if you enable this)"
+msgstr "Encuentra posts relacionados basados en el contexto y el título. Si es deseleccionado, solo los títulos serán usados. (Recomiendo usar un plugin de caché si activas esto)"
+
+#: admin.inc.php:180
+msgid "List of post or page IDs to exclude from the results: "
+msgstr ""
+
+#: admin.inc.php:183
+msgid "Exclude Categories: "
+msgstr "Excluir Categorías:"
+
+#: admin.inc.php:201
+msgid "Add related posts to the post content on single posts"
+msgstr ""
+
+#: admin.inc.php:202
+#: admin.inc.php:205
+#, fuzzy
+msgid "If you choose to disable this, please add <code>&lt;?php if(function_exists('echo_ald_crp')) echo_ald_crp(); ?&gt;</code> to your template file where you want it displayed"
+msgstr "Agregar posts relacionados a páginas. <br />Si eliges desabilitar esto, por favor agrega <code>&lt;?php if(function_exists('echo_ald_crp')) echo_ald_crp(); ?&gt;</code> a tu archivo de template donde quieras q se muestre"
+
+#: admin.inc.php:204
+#, fuzzy
+msgid "Add related posts to pages"
+msgstr "Agregar posts relacionados al feed"
+
+#: admin.inc.php:207
+msgid "Add related posts to feed"
+msgstr "Agregar posts relacionados al feed"
+
+#: admin.inc.php:210
+msgid "Add a link to the plugin page as a final item in the list"
+msgstr ""
+
+#: admin.inc.php:211
+msgid " <em>Optional</em>"
+msgstr ""
+
+#: admin.inc.php:219
+#, fuzzy
+msgid "Output Options"
+msgstr "Opciones de Salida:"
+
+#: admin.inc.php:222
+msgid "Title of related posts: "
+msgstr "Título de posts relacionados:"
+
+#: admin.inc.php:225
+msgid "When there are no posts, what should be shown?"
+msgstr "Cuando no hay posts, ¿Qué se debe mostrar?"
+
+#: admin.inc.php:229
+msgid "Blank Output"
+msgstr "Salida vacía"
+
+#: admin.inc.php:233
+msgid "Display \"No Related Posts\""
+msgstr "Mostrar \"Posts No Relacionados\""
+
+#: admin.inc.php:237
+msgid "Show post excerpt in list?"
+msgstr "¿Mostrar extracto con los items?"
+
+#: admin.inc.php:240
+msgid "Length of excerpt (in words): "
+msgstr "Tamaño del extracto (en palabras):"
+
+#: admin.inc.php:243
+msgid "Customize the output:"
+msgstr "Personalizar la salida:"
+
+#: admin.inc.php:245
+msgid "HTML to display before the list of posts: "
+msgstr "HTML a mostrar antes de todos los items:"
+
+#: admin.inc.php:248
+msgid "HTML to display before each list item: "
+msgstr "HTML  a mostrar antes de cada item:"
+
+#: admin.inc.php:251
+msgid "HTML to display after each list item: "
+msgstr "HTML a mostrar despues de cada item:"
+
+#: admin.inc.php:254
+msgid "HTML to display after the list of posts: "
+msgstr "HTML a mostrar despues de todos los items:"
+
+#: admin.inc.php:257
+msgid "Post thumbnail options:"
+msgstr "Opciones de miniaturas en el post:"
+
+#: admin.inc.php:259
+msgid "Location of post thumbnail:"
+msgstr ""
+
+#: admin.inc.php:263
+#, fuzzy
+msgid "Display thumbnails inline with posts, before title"
+msgstr "Miniaturas en línea con los posts"
+
+#: admin.inc.php:267
+#, fuzzy
+msgid "Display thumbnails inline with posts, after title"
+msgstr "Miniaturas en línea con los posts"
+
+#: admin.inc.php:271
+msgid "Display only thumbnails, no text"
+msgstr "Solo miniaturas, sin texto"
+
+#: admin.inc.php:275
+msgid "Do not display thumbnails, only text."
+msgstr "No mostrar miniaturas, solo texto."
+
+#: admin.inc.php:279
+msgid "Maximum width of the thumbnail: "
+msgstr ""
+
+#: admin.inc.php:282
+msgid "Maximum height of the thumbnail: "
+msgstr ""
+
+#: admin.inc.php:285
+msgid "Use timthumb to generate thumbnails? "
+msgstr ""
+
+#: admin.inc.php:286
+msgid "If checked, <a href=\"http://www.binarymoon.co.uk/projects/timthumb/\">timthumb</a> will be used to generate thumbnails"
+msgstr ""
+
+#: admin.inc.php:288
+#, fuzzy
+msgid "Post thumbnail meta field name: "
+msgstr "Opciones de miniaturas en el post:"
+
+#: admin.inc.php:289
+msgid "The value of this field should contain the image source and is set in the <em>Add New Post</em> screen"
+msgstr ""
+
+#: admin.inc.php:291
+#, fuzzy
+msgid "If the postmeta is not set, then should the plugin extract the first image from the post?"
+msgstr "Si el postmeta no está definido, entonces el plugin extrae la primera imágen del post. Esto puede relentizar la carga si la primera imágen es de gran tamaño"
+
+#: admin.inc.php:292
+#, fuzzy
+msgid "This can slow down the loading of your page if the first image in the related posts is large in file-size"
+msgstr "Si el postmeta no está definido, entonces el plugin extrae la primera imágen del post. Esto puede relentizar la carga si la primera imágen es de gran tamaño"
+
+#: admin.inc.php:294
+msgid "Use default thumbnail? "
+msgstr ""
+
+#: admin.inc.php:295
+msgid "If checked, when no thumbnail is found, show a default one from the URL below. If not checked and no thumbnail is found, no image will be shown."
+msgstr ""
+
+#: admin.inc.php:297
+msgid "Default thumbnail: "
+msgstr ""
+
+#: admin.inc.php:298
+#, fuzzy
+msgid "The plugin will first check if the post contains a thumbnail. If it doesn't then it will check the meta field. If this is not available, then it will show the default image as specified above"
+msgstr "El plugin primero verificará si el post contiene miniaturas. Si no tiene ninguno verificará el campo meta. Si no está disponible, entonces mostrará la imágen padrón especificada a continuación:"
+
+#: admin.inc.php:304
+msgid "Custom Styles"
+msgstr ""
+
+#: admin.inc.php:307
+msgid "Custom CSS to add to header:"
+msgstr ""
+
+#: admin.inc.php:310
+msgid "Do not include <code>style</code> tags. Check out the <a href=\"http://wordpress.org/extend/plugins/contextual-related-posts/faq/\">FAQ</a> for available CSS classes to style."
+msgstr ""
+
+#: admin.inc.php:314
+#, fuzzy
+msgid "Save Options"
+msgstr "Opciones:"
+
+#: admin.inc.php:315
+#, fuzzy
+msgid "Default Options"
+msgstr "Opciones de Salida:"
+
+#: admin.inc.php:315
+msgid "Do you want to set options to Default?"
+msgstr "¿Quieres resetear las opciones?"
+
+#: admin.inc.php:316
+msgid "Recreate Index"
+msgstr ""
+
+#: admin.inc.php:316
+msgid "Are you sure you want to recreate the index?"
+msgstr "¿Está seguro que quiere recrear el index?"
+
+#: admin.inc.php:346
+msgid "Contextual Related Posts"
+msgstr "Posts Relacionados Contextualmente"
+
+#: admin.inc.php:346
+#: contextual-related-posts.php:190
+msgid "Related Posts"
+msgstr "Post Relacionados"
+
+#: admin.inc.php:355
+#, fuzzy
+msgid "plugin settings page"
+msgstr "sitio del plugin"
+
+#: admin.inc.php:360
+msgid "Contextual Related Posts plugin has just been installed / upgraded. Please visit the "
+msgstr ""
+
+#: admin.inc.php:360
+msgid " to configure."
+msgstr ""
+
+#: contextual-related-posts.php:146
+msgid "Powered by"
+msgstr "Creado por"
+
+#: contextual-related-posts.php:151
+#: contextual-related-posts.php:156
+msgid "No related posts found"
+msgstr "No hay posts relacionados"
+
+#: contextual-related-posts.php:189
+#, fuzzy
+msgid "Display Related Posts"
+msgstr "Mostrar \"Posts No Relacionados\""
+
+#: contextual-related-posts.php:200
+msgid "Title"
+msgstr ""
+
+#: contextual-related-posts.php:205
+msgid "No. of posts"
+msgstr ""
+
+#: contextual-related-posts.php:209
+#, fuzzy
+msgid "Thumbnail options"
+msgstr "Opciones de miniaturas en el post:"
+
+#: contextual-related-posts.php:211
+#, fuzzy
+msgid "Thumbnails inline, before title"
+msgstr "Miniaturas en línea con los posts"
+
+#: contextual-related-posts.php:212
+#, fuzzy
+msgid "Thumbnails inline, after title"
+msgstr "Miniaturas en línea con los posts"
+
+#: contextual-related-posts.php:213
+#, fuzzy
+msgid "Only thumbnails, no text"
+msgstr "Solo miniaturas, sin texto"
+
+#: contextual-related-posts.php:214
+#, fuzzy
+msgid "No thumbnails, only text."
+msgstr "No mostrar miniaturas, solo texto."
+
+#: contextual-related-posts.php:219
+#, fuzzy
+msgid " Show excerpt?"
+msgstr "¿Mostrar extracto con los items?"
+
+#: contextual-related-posts.php:271
+msgid "<h3>Related Posts:</h3>"
+msgstr "<h3>Post Relacionados:</h3>"
+
+#: contextual-related-posts.php:450
+msgid "Settings"
+msgstr "Opciones"
+
+#: contextual-related-posts.php:452
+msgid "Donate"
+msgstr "Donar"
+
+#~ msgid "plugin page"
+#~ msgstr "sitio del plugin"
+
+#~ msgid "Exclude Pages in Related Posts"
+#~ msgstr "Excluir Post Relacionados de las Páginas"
+
+#~ msgid ""
+#~ "Add related posts to the post content on single posts. <br />If you "
+#~ "choose to disable this, please add <code>&lt;?php if(function_exists"
+#~ "('echo_ald_crp')) echo_ald_crp(); ?&gt;</code> to your template file "
+#~ "where you want it displayed"
+#~ msgstr ""
+#~ "Agregar posts relacionados al contenido en posts únicos. <br />Si eliges "
+#~ "desabilitar esto, por favor agrega <code>&lt;?php if(function_exists"
+#~ "('echo_ald_crp')) echo_ald_crp(); ?&gt;</code> a tu archivo de template "
+#~ "donde quieras q se muestre"
+
+#~ msgid ""
+#~ "Append link to this plugin as item. Optional, but would be nice to give "
+#~ "me some link love"
+#~ msgstr ""
+#~ "Agregar link al creador del plugin. Opcional, pero seria bueno que me "
+#~ "dieran algo de enlace de cariño."
+
+#~ msgid ""
+#~ "Post thumbnail meta field (the meta should point contain the image "
+#~ "source): "
+#~ msgstr ""
+#~ "Campo meta de miniatura del post (debe apuntar al código de la imágen)"
+
+#~ msgid "Thumbnail dimensions:"
+#~ msgstr "Dimensiones miniatura:"
+
+#~ msgid "Max width: "
+#~ msgstr "Ancho máximo:"
+
+#~ msgid "Max height: "
+#~ msgstr "Altura máxima:"
+
+#~ msgid "Support forum"
+#~ msgstr "Forum de Soporte"

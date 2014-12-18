@@ -1,0 +1,131 @@
+/*In case you modify styles in this css file make sure to back-up the modified file somewhere else. This is because the future updates will replace this file with official versions and you will lose your modifications. Saving the modified file will make it easier to apply your modifications again after updating the plugin in the futuer*/
+div.imgboxouter{
+	display:block;
+	float:left;
+	clear:none;
+	margin:10px;
+	text-align:center;
+	overflow: visible;
+}
+
+div.imgboxwhite{
+	border-collapse: separate;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;	
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	-moz-box-shadow: 0px 0px 5px #333;
+	-webkit-box-shadow: 0px 0px 5px #333;
+	box-shadow: 0px 0px 5px #333;
+	background-color: #333;
+}
+div.imgboxwhite:hover{
+	-moz-box-shadow: 0px 0px 10px #666;
+	-webkit-box-shadow: 0px 0px 10px #666;
+	box-shadow: 0px 0px 10px #666;
+}
+div.imgboxblack{
+	border-collapse: separate;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;	
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	-moz-box-shadow: 0px 0px 5px #666;
+	-webkit-box-shadow: 0px 0px 5px #666;
+	box-shadow: 0px 0px 5px #666;
+	background-color: #EEE;
+}
+div.imgboxblack:hover{
+	-moz-box-shadow: 0px 0px 10px #111;
+	-webkit-box-shadow: 0px 0px 10px #111;
+	box-shadow: 0px 0px 10px #111;
+}
+
+div.imgboxouter a{
+	display:block;
+	position:relative;
+	left:0;
+	top:0;
+}
+
+div.imgboxgallery{
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 2px solid #DDD;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	position: absolute;
+	top: -7px;
+	left: -7px;
+}
+div.titlebelow{
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+}
+
+
+/*pagination related css*/
+#tnt_pagination {
+	display:block;
+	text-align:left;
+	height:22px;
+	line-height:21px;
+	clear:both;
+	padding-top:3px;
+	margin-top:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+}
+
+#tnt_pagination a:link, #tnt_pagination a:visited{
+	padding:7px;
+	padding-top:2px;
+	padding-bottom:2px;
+	border:1px solid #EBEBEB;
+	margin-left:10px;
+	text-decoration:none;
+	background-color:#F5F5F5;
+	color:#0072bc;
+	width:22px;
+	font-weight:normal;
+}
+
+#tnt_pagination a:hover {
+	background-color:#DDEEFF;
+	border:1px solid #BBDDFF;
+	color:#0072BC;  
+}
+
+#tnt_pagination .active_tnt_link {
+	padding:7px;
+	padding-top:2px;
+	padding-bottom:2px;
+	border:1px solid #BBDDFF;
+	margin-left:10px;
+	text-decoration:none;
+	background-color:#DDEEFF;
+	color:#0072BC;
+	cursor:default;
+}
+
+#tnt_pagination .disabled_tnt_pagination {
+	padding:7px;
+	padding-top:2px;
+	padding-bottom:2px;
+	border:1px solid #EBEBEB;
+	margin-left:10px;
+	text-decoration:none;
+	background-color:#F5F5F5;
+	color:#D7D7D7;
+	cursor:default;
+}

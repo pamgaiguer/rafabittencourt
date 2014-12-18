@@ -1,0 +1,33 @@
+.gallery-item {
+    float: left;
+    margin-top: 6px; 
+    text-align: center;
+}
+
+#main #main-content #primary #content .entry-content .gallery .gallery-item{
+    /*For TwentyFourteen theme*/
+   margin: 0;
+}
+
+.gallery-icon img {
+    padding:5px;
+    background-color:#ffffff;
+    border: 1px solid #ccc;
+}
+
+.gallery-caption {
+    margin-left: 0;
+    font-size: 75%;
+    line-height:100%;
+}
+
+.fpfcredit{
+    margin-top: 0;
+    font-size:80%;
+    color: #BBBBBB;
+}
+
+#branding{
+    /*Fix for the Twenty Eleven theme*/
+    z-index:999;
+}

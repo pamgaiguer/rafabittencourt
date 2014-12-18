@@ -1,0 +1,416 @@
+/*
+Theme Name: Wordpress band by J.Duarte Design
+Theme URI: http://www.jduartedesign.com
+Description: Wordpress J.Duarte Design Theme
+Author: Joao Duarte - J.Duarte Design
+Author URI: http://jduartedesign.com
+Version: 3.0
+Tags: J.Duarte Design
+
+License: NONE
+License URI: http://none.at.all
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+/* Basics and Typography */
+
+body {
+	background-color: #000000; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-image:url(images/bg.jpg);
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-size:12px;
+ 	font-family: Arial, Verdana, Helvetica, sans-serif;
+	color:#f1feff;
+	text-align: justify;
+	font-weight: normal;
+	text-shadow: 4px 4px 4px #000;
+}
+
+#titulo {
+	font-size: 22px;
+	color:#79acae;
+	font-family: 'Oswald', Arial, Helvetica, Verdana, "Oswald", Arial, sans-serif;
+	text-align: left;
+	font-weight: bold;
+	text-shadow: 4px 4px 4px #000;
+        text-transform: uppercase;
+}
+
+#small {
+        font-size: 11px;
+        font-family: Arial, Verdana, Helvetica, sans-serif;
+        color:#79acae;
+        font-weight: bold;
+        text-shadow: 4px 4px 4px #000;
+        text-transform: normal;
+}
+
+html>body {
+	font-size: small;
+}
+
+a:link {
+	color: #79acae;
+        text-decoration: none;
+}
+
+a:visited {
+	color: #79acae;
+}
+
+a:hover {
+	color: #79acae;
+        text-decoration: underline;
+}
+
+a:active {
+	color: #79acae;
+}
+
+input, textarea, select {
+	background-color: #FFF;
+	color: #808080;
+	font-size: 1em;
+        font-family:  Arial, Verdana, Helvetica, sans-serif;
+}
+
+blockquote {
+	background-color: #F0E1E7;
+	margin: 0 20px;
+	padding: 0 20px;
+	border-left: 1px dotted #C6849F;
+	border-right: 1px dotted #C6849F;
+}
+
+code {
+	font-family: monospace;
+	color: #666;
+}
+
+form, img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+
+/* Layout */
+
+#wrapper {
+	width: 900px;
+ 	max-width:900px;
+	margin: 0 auto;
+	background: #transparent;
+}
+
+#header {
+	width: 900px;
+ 	max-width: 900px;
+}
+
+#cartazes_topbanner {
+	position:absolute;
+ 	float:left;
+	width:150px;
+	height:214px;
+	z-index:1;
+ 	margin: 75px 0px 0 700px;
+	background-image:url(images/topbanner-cartaz.gif);
+		background-repeat: no-repeat;
+}
+
+html>body #content {
+	width: 500px;
+ 	max-width: 500px;
+	float: left;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 5px 10px 15px;
+	background: url() no-repeat;
+	voice-family: "\"}\""; 
+	voice-family: inherit;
+}
+
+html>body #content_index {
+	width: 410px;
+ 	max-width: 410px;
+	float: left;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 5px 10px 15px;
+	background: url() no-repeat;
+	voice-family: "\"}\""; 
+	voice-family: inherit;
+}
+
+html>body #content-fullwidth {
+	width: 860px;
+ 	max-width: 860px;
+	float: left;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 5px 10px 15px;
+	background: url() no-repeat;
+	voice-family: "\"}\""; 
+	voice-family: inherit;
+}
+
+html>body #sidebar {
+	width: 290px;
+ 	max-width: 290px;
+	background-image:url(images/sidebar-bg.png);
+	background-repeat: no-repeat;
+	float: right;
+	padding: 10px 25px 10px 5px;
+	margin: 10px 25px 10px 5px;
+}
+
+html>body #sidebar_index {
+	width: 410px;
+ 	max-width: 410px;
+	background-repeat: no-repeat;
+	float: left;
+	padding: 10px 5px 10px 5px;
+	margin: 10px 5px 10px 5px;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#sidebar ul ul, #sidebar ol {
+	margin: 1.2em 0 1.2em 1.3em;
+}
+
+#sidebar ul ul {
+	list-style-type: disc;
+}
+
+#sidebar ul ul ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+	
+#sidebar h3 {
+ 	font-family: Arial;
+	font-size: 0px;
+	color: transparent;
+}
+
+
+* html #content, * html #sidebar {
+	overflow: hidden; /* For IE */
+}
+
+#footer  {
+ 	witdh: 900px;
+ 	max-width: 900px;
+	z-index: 11;
+	clear: both;
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+	overflow: hidden;
+}
+
+
+
+
+/* Blog Styles */
+
+.posttitle {
+	margin: 0 0 0.6em 0;
+ 	color: #9e2251;
+	font-size: 10px;
+	font-family: Arial;
+}
+
+.posttitle a {
+	text-decoration: none;
+}
+
+.postmeta {
+	margin: 0;
+	padding: 0.2em 0 0 0;
+}
+
+.postmeta, .postfeedback {
+	font-size: 0.92em;
+	text-align: left;
+}
+
+.pagetitle {
+	margin: 0.6em 0 1.2em 0;
+}
+
+.commentauthor {
+	margin: 1.2em 0 0 0;
+	border-bottom: 1px dotted #C6849F;
+	font-size: 1.1em;
+}
+
+.commentauthor a {
+	text-decoration: none;
+}
+
+.commentmeta {
+	margin: 0;
+	padding: 0.2em 0 0 0;
+	font-size: 0.92em;
+}
+
+#comment {
+	width: 98%;
+}
+
+
+
+
+
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+    border-style:hidden;
+}
+
+.aligncenter, div.aligncenter {
+    display:block;
+    margin: 5px auto 5px auto;
+    border-style:hidden;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+    border-style:hidden;
+}
+
+.alignleft {
+    float:left;
+    margin: 5px 20px 20px 0;
+    border-style:hidden;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+    border-style:hidden;
+}
+
+a img.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+    border-style:hidden;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+    border-style:hidden;
+}
+
+a img.alignleft {
+    float:left;
+    margin: 5px 20px 20px 0;
+    border-style:hidden;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style:hidden;
+}
+
+.wp-caption {
+    background: #fff;
+    border-style:hidden;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+    border-style:hidden;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+    border-style:hidden;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+    border-style:hidden;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin:0;
+    max-width: 98.5%;
+    padding:0;
+    width: auto;
+    border-style:hidden;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size:11px;
+    line-height:17px;
+    margin:0;
+    padding:0 4px 5px;
+    border-style:hidden;
+}
+
+.bordered
+{
+    border-style:hidden;
+}
+
+
+
+
+
+
+.wpcf7 input, textarea {
+border: 1px solid #ccc;
+font-size: 14px;
+margin: 0 10px 10px 0;
+padding: 8px 10px;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+box-shadow: 0 2px 2px #ddd;
+-moz-box-shadow: 0 2px 2px #ddd;
+-webkit-box-shadow: 0 2px 2px #ddd
+}
+
+
+.wpcf7 input {
+width: 475px;
+}
+
+.wpcf7 textarea {
+width: 95%;
+}
+
+.wpcf7 input[type="submit"] {
+background: #c09b00;
+border: 1px solid #c09b00;
+color: #fff;
+cursor: pointer;
+font-size: 12px;
+font-weight: bold;
+padding: 3px 5px;
+text-shadow: -1px -1px #1c5d28;
+text-transform: uppercase;
+width: auto
+}

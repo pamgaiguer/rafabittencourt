@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mp3config>
+  <autostart>false</autostart>
+  <shuffle>true</shuffle>
+  <repeat>all</repeat>
+  <volume>50</volume>
+  <showdisplay>true</showdisplay>
+  <showplaylist>true</showplaylist>
+  <linktarget>_top</linktarget>
+  <backcolor>0xFFFFFF</backcolor>
+  <frontcolor>0xfffade</frontcolor>
+  <lightcolor>0xe5b900</lightcolor>
+  <jpgfile>http://www.rafaelbittencourt.com/ptbr/wp-content/themes/jduartedesign/mp3/skin.png</jpgfile>
+</mp3config>

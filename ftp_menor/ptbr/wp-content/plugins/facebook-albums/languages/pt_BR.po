@@ -1,0 +1,184 @@
+# Copyright (C) 2013 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/facebook-albums\n"
+"POT-Creation-Date: 2013-08-09 05:31:36+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-08-09 00:50-0600\n"
+"Last-Translator: Matt Glaman <nmd.matt@gmailc.om>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: inc/options-facebookalbum.php:30
+msgid "Options"
+msgstr "Opções"
+
+#: inc/options-facebookalbum.php:35
+msgid "General Settings"
+msgstr "Configurações Gerais"
+
+#: inc/options-facebookalbum.php:37
+msgid "Reverse display order."
+msgstr "Inverta ordem de apresentação"
+
+#: inc/options-facebookalbum.php:38
+msgid ""
+"Note: Facebook does not support a \"order\" attribute for Graph API calls. "
+"This simply reverse the order of the photos received from Facebook."
+msgstr ""
+"Nota: Facebook não oferece suporte a \"ordem\" atributo para chamadas de API "
+"Graph. Isso simplesmente inverter a ordem das fotos recebidas do Facebook."
+
+#: inc/options-facebookalbum.php:40
+msgid "Display album title."
+msgstr "Mostrar título do álbum"
+
+#: inc/options-facebookalbum.php:41
+msgid "Display photo description in Lightbox."
+msgstr "Mostrar descrição foto em Lightbox."
+
+#: inc/options-facebookalbum.php:43
+msgid "Thumbnail Size"
+msgstr "Tamanho da Miniatura"
+
+#: inc/options-facebookalbum.php:45
+msgid "Smaller"
+msgstr "Menor"
+
+#: inc/options-facebookalbum.php:46
+msgid "Small"
+msgstr "Pequeno"
+
+#: inc/options-facebookalbum.php:47
+msgid "Medium"
+msgstr "Médio"
+
+#: inc/options-facebookalbum.php:48
+msgid "Large"
+msgstr "Grande"
+
+#: inc/options-facebookalbum.php:49
+msgid "Largest"
+msgstr "Maior Grande"
+
+#: inc/options-facebookalbum.php:50
+msgid "Full"
+msgstr "Completo"
+
+#: inc/options-facebookalbum.php:53
+msgid "Cache Lifetime"
+msgstr "Tempo de cache"
+
+#: inc/options-facebookalbum.php:55
+msgid "1 day"
+msgstr "1 dia"
+
+#: inc/options-facebookalbum.php:56
+msgid "2 days"
+msgstr "2 dias"
+
+#: inc/options-facebookalbum.php:57
+msgid "3 days"
+msgstr "3 dias"
+
+#: inc/options-facebookalbum.php:58
+msgid "4 days"
+msgstr "4 dias"
+
+#: inc/options-facebookalbum.php:59
+msgid "5 days"
+msgstr "5 dias"
+
+#: inc/options-facebookalbum.php:60
+msgid "6 days"
+msgstr "6 dias"
+
+#: inc/options-facebookalbum.php:61
+msgid "7 days"
+msgstr "7 dias"
+
+#: inc/options-facebookalbum.php:66
+msgid ""
+"If you wish to use <strong>personal albums</strong> you will need to create "
+"a Facebook App and enter in the App ID and App Secret below."
+msgstr ""
+"Se você quiser usar <strong> álbuns pessoais </ strong> você vai precisar "
+"para criar um aplicativo do Facebook e entrar na App ID e App Segredo abaixo."
+
+#: inc/options-facebookalbum.php:67
+msgid "App ID"
+msgstr "App ID"
+
+#: inc/options-facebookalbum.php:68
+msgid "App Secret"
+msgstr "App Segredo"
+
+#: inc/options-facebookalbum.php:91
+msgid "Logout of your app"
+msgstr "Sair do seu aplicativo"
+
+#: inc/options-facebookalbum.php:94
+msgid "Log into Facebook with your app"
+msgstr "Efetue login no Facebook com o aplicativo"
+
+#: inc/options-facebookalbum.php:101
+msgid "View your application's settings."
+msgstr "Ver as configurações de aplicações"
+
+#: inc/options-facebookalbum.php:105
+msgid ""
+"Having issues once logged in? Try <a href=\"?page=facebook-album&amp;"
+"reset_application=%S\">resetting application data.</a> <em>warning: removes "
+"App ID and App Secret</em>"
+msgstr ""
+"Depois de ter problemas, uma vez logado? Tente <a href=\"?page=facebook-"
+"album&reset_application=%S\"> repor os dados da aplicação </ a> <em> aviso:. "
+"elimina App ID e App Segredo </ em>"
+
+#: inc/options-facebookalbum.php:110
+msgid "Settings"
+msgstr "Configurações"
+
+#: inc/options-facebookalbum.php:111
+msgid "Enable"
+msgstr "Permitir"
+
+#: inc/options-facebookalbum.php:113
+msgid "Overlay opacity"
+msgstr "Overlay opacidade"
+
+#: inc/options-facebookalbum.php:114
+msgid "Transition Type"
+msgstr "Tipo de Transição"
+
+#: inc/options-facebookalbum.php:116
+msgid "None"
+msgstr "Nada"
+
+#: inc/options-facebookalbum.php:117
+msgid "Elastic"
+msgstr "elástico"
+
+#: inc/options-facebookalbum.php:118
+msgid "Fade"
+msgstr "desvanecer"
+
+#: inc/options-facebookalbum.php:124
+msgid "Widget Options"
+msgstr "Opções de Widget"
+
+#: inc/options-facebookalbum.php:125
+msgid ""
+"You have the option to specify a different Facebook Album URL for each page "
+"the widget is on."
+msgstr ""
+"Você tem a opção de especificar um Facebook Album URL diferente para cada "
+"página do widget está ligado."
+
+#: inc/options-facebookalbum.php:133
+msgid "Save Changes"
+msgstr "Salvar alterações"

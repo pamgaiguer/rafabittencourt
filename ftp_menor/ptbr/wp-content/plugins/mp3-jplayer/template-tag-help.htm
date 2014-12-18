@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>Template Tag Help</title>
+	<style type="text/css">
+	<!--
+		body { font-family: Lucida Grande, Verdana, sans-serif; }
+		p { font-size: 13px; }
+		code, pre { font-size: 15px; background:#f0f0f0; padding:4px; line-height:23px; }
+	-->
+	</style>
+<body>
+</head>
+<div style="width:700px; margin:50px auto 50px auto;">
+
+<h3><strong>Template Tags</strong></h3>
+<p>Tags have become easier since version 1.7, you can now send in shortcodes. Note: there's an admin option to ignore the tags which needs to remain unticked when you want to use them.</p>
+<p>Instructions: Place tag (1) in the header, place tag (2) where you want the players to be.
+<br /><br />
+
+<p>(1). <strong><code>mp3j_addscripts( $style )</code></strong></p>
+<p>Loads the player's javascript and CSS files into the page header, and allows you to set a stylesheet. This tag must be placed above wp_head(), and must be used to ensure scripts will be loaded for players set via template tags.</p>
+<ul>
+<li><p>$style can be either a URI to a stylesheet, or  'styleA', 'styleB', 'styleC', 'styleD' to use one available from admin. Defaults to current admin setting if not specified.</p></li>
+</ul>
+<br />
+
+<p>(2). <strong><code>mp3j_put( $shortcodes )</code></strong></p>
+<p>Adds player(s) where the tag is placed in the theme. Can use multiple times.</p>
+<ul>
+	<li><p>$shortcodes is a string containing any player shortcodes and html</p></li>
+</ul>
+
+<br /><br />
+
+<h3>Example</h3>
+<p>Play 5 random library tracks on the posts index page</p>
+
+<p>Put this in header.php above wp_head()</p>
+<pre><code>&lt;?php
+   mp3j_addscripts(); 
+ ?&gt;</code></pre>
+<br />
+
+<p>Put this in index.php</p>
+<pre><code>&lt;?php 
+   mp3j_put( '[mp3-jplayer tracks="FEED:LIB" pick="5"]' );
+ ?&gt;</code></pre>
+
+<br />
+<p>Always use <code>if ( function_exists() ) {}</code> to check tags exist before running them incase the plugin gets deactivated.</p>
+
+<br /><br />
+
+
+<h4>The following tags are not necessary but can be used:</h4> 
+
+<p><strong><code>mp3j_grab_library( $format )</code></strong></p>
+
+<p>Returns an array of all the mp3's in the library with their 'filenames', 'urls', 'titles', 'excerpts', 
+	'descriptions', and original ID (not attachment). Can be used anywhere.</p>
+<ul>
+	<li><p>$format can be either 1 (gives back the above fields in indexed arrays) or 0 (gives back the 
+		arrays as returned from the select query), defaults to 1.</p></li>
+</ul>
+<br />
+
+<p><strong><code>mp3j_debug( $info )</code></strong></p>
+<p>Prints some info from the plugin to the browser's source view (CTRL+U or Page-&gt;view source) about 
+	the page that just ran. Can be useful for debugging when customising templates.</p>
+<ul>
+	<li><p>$info is depreciated and ignored.</p></li>
+</ul>
+<br /><br />
+
+
+<h4>Depreciated tags</h4>
+<p>These tags have no use anymore, setting them has no effect.</p>
+<p><strong><code>mp3j_flag( $set )</code></strong></p>
+
+<p><strong><code>mp3j_set_meta( $tracks, $captions )</code></strong></p>
+<br />
+<br />
+
+<hr /><br /><br />
+</div>
+</body></html>

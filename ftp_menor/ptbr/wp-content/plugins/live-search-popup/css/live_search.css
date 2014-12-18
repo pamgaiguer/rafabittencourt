@@ -1,0 +1,144 @@
+.livesearchpopup {
+    width: 128px;
+}
+
+.livesearchpopup .box {
+    position: relative;
+    height: 18px;
+}
+
+.livesearchpopup .form {
+    width: 128px;
+    height: 18px;
+
+    white-space: nowrap;
+}
+
+.livesearchpopup .left {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.livesearchpopup .editbox {    
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    background: #ffffff;
+
+    height: 16px;
+    width: 100px;
+    border: 0px;
+    margin: 0px;
+    overflow: hidden; 
+
+    border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.livesearchpopup .edit {
+    width: 100px;
+    font-size: 11px;
+    background: #ffffff;
+    height: 16px;
+    border: 0px;
+    autocomplete: off;
+    outline-width: 0px;
+}
+
+.livesearchpopup .lupe {
+    position: absolute;
+    top: 0px;
+    left: 110px;
+}
+
+.livesearchpopup #livesearchpopup_box {
+    top: 25px;
+    width: 150px;
+}
+
+#livesearchpopup_box {
+    color: #f0f0f0;
+    background: #0255cd url(../resultgradient.png) 0 0px repeat-x;
+    right: 0em;
+    text-align: left;
+    padding: 1px;
+    margin: 0px;
+    position: absolute;
+    width: 100%;
+
+    filter:alpha(opacity=95);
+    -moz-opacity:.95;
+    opacity:.95;
+    z-index:100;
+}
+
+#livesearchpopup_box .pfeil {
+    position: absolute;
+    top: -7px;
+    right: 40%;
+}
+
+#livesearchpopup_box h1 {
+    font-size: 1em;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+
+#livesearchpopup_results {
+    width: 100%;
+    overflow: hidden;
+    text-align: left;
+    padding: 0em;
+    margin: 0px;
+    color: #000000;
+    background: #f0f0f0;
+}
+
+#livesearchpopup_box ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.livesearchpopup .resultlistitem,
+.livesearchpopup .resultlistitem_selected {
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 1px solid #e0e0e0;
+    text-decoration: none; 
+    color: #303030;
+}
+
+.livesearchpopup .resultlistitem_selected,
+#livesearchpopup_box li:hover {
+    background: #757575 url(../searchhovergradient.png) 0 0px repeat-x;
+    color: #f0f0f0;
+}
+
+#livesearchpopup_box li a {
+    text-decoration: none;
+    padding: 0.3em;
+    display: block;
+    width: 100%;
+}
+
+.livesearchpopup .resultlistitem a,
+.livesearchpopup .resultlistitem a:visited {
+    color: #303030;
+}
+
+.livesearchpopup .resultlistitem_selected a, 
+.livesearchpopup .resultlistitem_selected a:visited,
+.livesearchpopup .resultlistitem a:hover {
+    background: #757575 url(../searchhovergradient.png) 0 0px repeat-x;
+    color: #f0f0f0;
+}
+
+.livesearchpopup .spiegel {
+    position: absolute;
+    top: 12px;
+    left: 0px;
+}

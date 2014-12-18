@@ -1,0 +1,102 @@
+.ui-widget{
+	font-size:100%;
+	font-family:inherit;
+}
+.ui-widget .ui-widget-content > *:first-child{
+	margin-top:0;
+}
+.ui-widget h3.ui-accordion-header,
+.ui-widget h3.thethe-haccord-header{
+	font-family:inherit;	
+	font-size:100%;
+	font-style:normal;
+	line-height:100%;
+	padding:0 !important;
+	margin-bottom:0 !important;
+}
+.ui-tabs .ui-tabs-nav{
+	margin:0 !important;
+}
+.thethe-haccord-group {
+	text-align: left;
+	overflow:hidden;
+}
+.thethe-haccord-group ul.thethe-haccord-sections {
+	position: relative;
+	height: 100%;
+	overflow:hidden;
+	margin: 0 !important;
+	padding: 0;
+	list-style-type: none;
+}
+.thethe-haccord-group li.thethe-haccord-section {
+	padding:0 !important;
+}
+.thethe-haccord-group li h3.thethe-haccord-header {
+	margin: 0;
+	border:none !important;
+	z-index: 2;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-transform: translateX(-100%) rotate(-90deg);
+	-webkit-transform-origin: right top;
+	-moz-transform: translateX(-100%) rotate(-90deg);
+	-moz-transform-origin: right top;
+	-o-transform: translateX(-100%) rotate(-90deg);
+	-o-transform-origin: right top;
+	-ms-transform: translateX(-100%) rotate(-90deg);
+	-ms-transform-origin: right top;
+	transform: translateX(-100%) rotate(-90deg);
+	transform-origin: right top;
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.thethe-haccord-group li h3.thethe-haccord-header span {
+	display: block;
+	margin:0 !important;
+	padding:0 8% 0 0;
+	position:absolute !important;
+	top:1px;
+	right:1px;
+	bottom:0;
+	left:0;
+	text-align: right;
+	z-index:3;
+}
+.thethe-haccord-group li h3.thethe-haccord-header span a{
+	display:inline-block !important;
+	width:100%;
+	padding:0 !important;
+}
+.thethe-haccord-group li h3.thethe-haccord-header b {
+	display: inline-block;
+	position: absolute;
+	height:100%;
+	left: 10%;
+	/* ie only */
+	top:50%\9;
+	width:20px\9;
+	margin-top:-10px\9;
+	
+	z-index:4;
+	text-align: center;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+.thethe-haccord-group li h3.thethe-haccord-header:hover {
+	cursor: pointer;
+}
+.thethe-haccord-group li div.thethe-haccord-content {
+	height: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	border:none !important;
+	overflow:auto;	
+}
+.thethe-haccord-group .content-inner {
+	padding:10px;
+}

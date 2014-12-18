@@ -1,0 +1,224 @@
+@charset "utf-8";
+/* CSS Document */
+
+.button {
+  color: #bec4cc;
+  font-size: 12px;
+  padding: 4px 10px;
+  background-color: #3f434a;
+  text-transform: uppercase;
+}
+.button:hover {
+  color: #ffffff;
+  border: none !important;
+}
+.button.full-width {
+  width: 100%;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  text-align: center;
+}
+.gigpress-tickets-link.button {
+  margin: 10px 0;
+  float: left;
+  color: #ffffff;
+  background: green;
+}
+.gigpress-subscribe {
+  font-family: 'Oswald', "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+/*	GigPress Plugin Styles (** Output by less/gigpress.less file **)
+/*-----------------------------------------------------------------------------------*/
+/* PAGE TEMPLATE */
+.page-template-template-gigpress-php .gigpress-table {
+  width: 600px !important;
+  margin-left: -15px;
+}
+/* WIDGET */
+.widget_gigpress .gigpress-listing {
+  border-top: 0px solid rgba(0, 0, 0, 0.2);
+  background: url(../../../images/bg-gradient.png) 0 0 repeat-x;
+}
+.widget_gigpress .gigpress-listing li {
+  padding: 10px 15px 9px;
+}
+.widget_gigpress .gigpress-listing li li {
+  padding: inherit 0;
+}
+.widget_gigpress .gigpress-listing li li:last-child {
+  border: none;
+  padding-bottom: 0;
+}
+.widget_gigpress .gigpress-listing .gigpress-list-tour-heading {
+  font-size: 13px;
+  text-align: center;
+  display: block;
+}
+.widget_gigpress .gigpress-listing .gigpress-sidebar-date {
+  color: #bec4cc;
+  float: left;
+  font-weight: bold;
+  width: 65px;
+  margin: 0 5px 9px 0;
+}
+.widget_gigpress .gigpress-listing .gigpress-sidebar-date abbr {
+  border: none;
+  cursor: default;
+}
+.widget_gigpress .gigpress-listing .gigpress-sidebar-prep {
+  display: none;
+}
+.widget_gigpress .gigpress-listing .gigpress-sidebar-city {
+  color: #ffffff;
+  font-weight: bold;
+  display: block;
+}
+.widget_gigpress .gigpress-listing .gigpress-sidebar-venue,
+.widget_gigpress .gigpress-listing .gigpress-sidebar-venue a {
+  color: #bec4cc;
+  font-size: 12px;
+}
+.widget_gigpress .gigpress-sidebar-status {
+  display: none;
+}
+.widget_gigpress .gigpress-subscribe {
+  clear: both;
+  overflow: hidden;
+  position: relative;
+  padding: 9px 15px 10px;
+  margin: 0;
+  text-indent: -999em;
+  border-top: 0px solid rgba(255, 255, 255, 0.1);
+}
+.widget_gigpress .gigpress-subscribe a {
+  position: absolute;
+  top: 8px;
+  margin: 0 10px 0 0;
+  width: auto;
+  text-indent: 0;
+  float: left;
+  color: #bec4cc;
+  font-size: 12px;
+  padding: 3px 10px 3px 27px;
+  background-position: 10px 7px;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-transform: uppercase;
+}
+.widget_gigpress .gigpress-subscribe a:hover {
+  color: #fff;
+  background-position: 10px 7px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.widget_gigpress .gigpress-subscribe a.gigpress-rss {
+  left: 15px;
+}
+.widget_gigpress .gigpress-subscribe a.gigpress-ical {
+  right: 5px;
+}
+body .gigpress-table {
+  width: 100%;
+  margin: 0 0 10px;
+  border-top: none;
+}
+body .gigpress-table th {
+  padding: 6px 15px;
+  border-bottom: none;
+}
+body .gigpress-table td {
+  padding: 6px 15px;
+}
+body .gigpress-table .gigpress-header {
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 0px solid #3f434a;
+}
+body .gigpress-table .gigpress-heading {
+  padding-top: 20px;
+  text-align: center;
+  font-style: italic;
+  border-bottom: 0px solid #3f434a;
+  background: #252a31;
+}
+body .gigpress-table .gigpress-tour td {
+  background: none;
+}
+body .gigpress-table .gigpress-row {
+  color: #bec4cc;
+}
+body .gigpress-table .gigpress-row td {
+  vertical-align: top;
+  border: none;
+}
+body .gigpress-table .gigpress-row .gigpress-date {
+  width: 65px;
+  color: #ffffff;
+  font-weight: bold;
+}
+body .gigpress-table .gigpress-row .gigpress-date abbr {
+  border: none;
+  cursor: default;
+}
+body .gigpress-table .gigpress-row .gigpress-city {
+  font-weight: bold;
+}
+body .gigpress-table .gigpress-info {
+  display: none;
+}
+body .gigpress-table .gigpress-info td {
+
+  border: none;
+  color: #ffffff;
+}
+body .gigpress-table .vevent {
+  border-top: 0px solid rgba(0, 0, 0, 0.2);
+}
+body .gigpress-table .vevent:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.1);
+}
+body .gigpress-table .gigpress-info-label {
+  color: #bec4cc;
+  font-weight: bold;
+}
+body .gigpress-table tr.gigpress-info td {
+  font-size: 14px;
+}
+body .gigpress-table .gigpress-info-item {
+  display: block;
+  float: left;
+  width: 100%;
+  margin: 5px 0;
+}
+body .gigpress-table .gigpress-calendar-links {
+  padding: 15px;
+  left: 15px;
+  top: -28px;
+  background: none;
+}
+body .gigpress-table .gigpress-calendar-links-inner {
+  border: none;
+  background: #000;
+  background: rgba(0, 0, 0, 0.85);
+}
+body #content .gigpress-subscribe {
+  position: absolute;
+  top: 11px;
+  right: 20px;
+}
+/* CSS3 */
+.gigpress-subscribe a,
+.gigpress-calendar-links-inner {
+  -webkit-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+.gigpress-calendar-links-inner {
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  -khtml-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}

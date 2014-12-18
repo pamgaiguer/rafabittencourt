@@ -1,0 +1,88 @@
+.binnash-gridbox{
+    float:left;
+}
+.binnash-container{
+    float:left;
+/*    width:600px;*/
+}
+.binnash-screen{
+    border:1px solid #fff;
+    min-height:150px;
+    border-radius:7px;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    box-shadow: 0 0 1px rgba(0, 0,2, 0.2),  0 1px 0 rgba(0,0,2,0.15),0 1px 1px rgba(0, 0,2, 0.1);
+    -moz-box-shadow:0 0 1px rgba(0, 0,2, 0.2),  0 1px 0 rgba(0,0,2,0.15),0 1px 1px rgba(0, 0,2, 0.1);
+    -webkit-box-shadow:0 0 1px rgba(0, 0,2, 0.2),  0 1px 0 rgba(0,0,2,0.15),0 1px 1px rgba(0, 0,2, 0.1);
+    padding:1px;
+    text-shadow:0 1px 0 #fdfdff;
+    -moz-text-shadow:0 1px 0 #fdfdff;
+    -webkit-text-shadow:0 1px 0 #fdfdff;
+    background:none repeat scroll 0 0 #f7f7f9;
+}
+.binnash-title{
+    /*color:#E3E3E5;*/
+   background: url("../images/white_title.png") repeat-x scroll 0 0 #E5E5E7;
+    border-radius: 7px 7px 0 0;
+    margin: -16px -3px 15px;
+    padding: 13px;
+}
+.binnash-container table,.binnash_container table tr td{
+    border:none;
+}
+.binnash-photo-album{
+    
+}
+.binnash-photo-album img, .binnash-photo-album td, .binnash-photo-album tr, .binnash-photo-album tbody{
+    border: 0 none;
+    margin: 0;
+    padding: 0;    
+}
+.binnash-photo-album table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+.binnash-prev,.binnash-next{
+    background-image:url("../images/nav_s.png");
+    cursor: pointer;
+    height:83px;
+    margin:5px;
+    width:32px;
+}
+.binnash-prev{
+    background-position:0 -70px;
+}
+.binnash-prev:hover{
+    background-position:-51px -70px;
+}
+.binnash-next{
+    background-position:0 5px;
+}
+.binnash-next:hover{
+    background-position:-51px 5px;
+}
+.binnash-photo-album div.stripmask{
+    height:116px;
+    overflow:hidden;
+    position:relative;
+}
+.binnash-photo-album div.strip{
+    position:absolute;
+    width: 3440px;
+}
+.binnash-photo-album div.strip > div{
+    width:172px;
+    display:block;
+    float:left;
+}
+.binnash-photo-album div.image{
+    background-color:#333;
+    background-position: center center;
+    background-repeat:no-repeat;
+    border-collapse:separate;
+    border-radius:5px;
+    box-shadow:0 0 5px #333;
+    height: 110px;
+    overflow:hidden;
+    width:160px;
+}
